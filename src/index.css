@@ -4,8 +4,9 @@
   font-weight: 400;
 
   --background :#ffffff;
-  --primary: #ffe8a3;
+  --primary: #ff6b6b;
   --secondary: #f5f5f5;
+  --border: #757575;
   --text: #213547;
 
   --success: green;

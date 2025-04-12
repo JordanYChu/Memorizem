@@ -1,0 +1,18 @@
+.word-shown {
+    opacity: 1;
+}
+.word-hidden {
+    opacity: 0;
+}
+
+p {
+    /* max-width: 100%; */
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 70%;
+    border-left: var(--primary) solid 2px;
+    word-wrap: break-word;
+}
+/* span {
+    white-space: pre;
+} */

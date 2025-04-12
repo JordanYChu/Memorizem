@@ -1,24 +1,101 @@
+/* Welcome Section */
 #welcome-section {
     background: var(--secondary);
     padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     overflow: auto; 
 }
 h1 {
     font-size: 5rem;
-    color: var(--text);
+    color: var(--primary);
     text-align: center;
     margin: 0;
 }
 
 h2 {
-    color: grey;
+    color: var(--);
     text-align: center;
 }
-div {
-    width: 100%; 
-}
+
 button {
-    width: 100px;
-    background: var(--primary);
+    margin: 0 0.5em;
+    color: var(--background);
+    border: var(--text) 2px solid;
+    border-radius: 2em;
+    padding: 0.5em 0.75em;
+    background: var(--text);
+}
+
+#to-last-speech {
+    color: var(--text);
+    background: var(--secondary);
+    border-color: var(--primary);
+}
+
+/* Input Section  */
+
+#input-section {
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    /* padding: 1em; */
+}
+
+label {
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.text-container {
+    box-sizing: border-box;
+    position: relative;
+    padding: 2em 0;
+    width: 100%;
+}
+
+textarea {
+    display: block;
+    width: 70%;
     margin: 0 auto;
+    height: 250px;
+    border-radius: 1em;
+    border: var(--border) 2px solid;
+    background-color: var(--secondary);
+
+    color: var(--text);
+    font-size: small;
+    padding: 1em;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+    border: var(--primary) 2px solid;
+}
+
+/* uplaod choice */
+.choice-container {
+    box-shadow: inset 0 0 0.125em var(--border);
+    background-color: var(--background);
+    border-radius: 4em;
+    padding: 1em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+
+}
+
+#upload-button {
+    margin: 0;
+    font-size: larger;
+    border: none;
+    background-color: var(--primary);
 }

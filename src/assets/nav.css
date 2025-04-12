@@ -7,7 +7,7 @@ nav {
     margin: 0;
     padding: 0 10%;
     background: var(--background);
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--primary);
 }
 
 nav ul {
