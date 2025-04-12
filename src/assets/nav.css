@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin: 0;
+    padding: 0 10%;
+    background: var(--background);
+    border-bottom: 2px solid black;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    flex-flow: row-reverse;
+}
+
+nav ul li {
+    font-size: medium;
+    list-style: none;
+    margin: 1em;
+
+}
+nav li a {
+    text-decoration: none;
+}
+
+#logo {
+    display: inline-block;
+    height: 2em;
+    aspect-ratio: 1/1;
+}

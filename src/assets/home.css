@@ -1,0 +1,24 @@
+#welcome-section {
+    background: var(--secondary);
+    padding: 5%;
+    overflow: auto; 
+}
+h1 {
+    font-size: 5rem;
+    color: var(--text);
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    color: grey;
+    text-align: center;
+}
+div {
+    width: 100%; 
+}
+button {
+    width: 100px;
+    background: var(--primary);
+    margin: 0 auto;
+}
