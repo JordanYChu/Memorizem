@@ -11,7 +11,6 @@ function App() {
             <NavBar />
             <Routes>
                 <Route path="/" element={< Home />}></Route>
-                <Route path="/speeches" element={<Speeches />}></Route>
                 <Route path="/speech" element={<SpeechHelper />}></Route>
             </Routes>
         </BrowserRouter>

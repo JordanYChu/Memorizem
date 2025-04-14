@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import logo from "/public/logo.svg"
 
 interface NavProps {
     href: string;
@@ -16,10 +17,9 @@ const NavItem = ({ href, label }: NavProps) => {
 const NavBar = () => {
     return (
         <nav>
-            <img id="logo" src="../public/logo.png" alt='logo'></img>
+            <img id="logo" src={logo} alt='logo'></img>
             <ul>
                 <NavItem href={"/"} label="Home" />
-                <NavItem href={"/speeches"} label="Speeches" />
             </ul>
 
         </nav>
