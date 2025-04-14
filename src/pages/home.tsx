@@ -14,7 +14,6 @@ const Home = () => {
                     </span>
                 </h1>
                 <h2>Quickly memorize any speech</h2>
-
             </section>
             <InputArea />
         </>
